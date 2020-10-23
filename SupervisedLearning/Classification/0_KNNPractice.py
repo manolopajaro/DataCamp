@@ -13,7 +13,7 @@ plt.style.use('ggplot')
 #Vamos entonces a iniciar importando nuestro clasificador para poder usarlo con
 from sklearn.neighbors import KNeighborsClassifier
 #y luego lo instanciamos indicando el numero de vecinos que queremos usar en esta ocasion
-knn = KNeighborsClassifier(n_neighbors=6)
+knn = KNeighborsClassifier(n_neighbors=2)
 #knn = KNeighborsClassifier(n_neighbors=4)
 
 #la data que vamos a usar para nuestro ejemplo la vamos a sacar de uno de los modulos de sklearn y se importa con
